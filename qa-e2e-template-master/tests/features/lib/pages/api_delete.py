@@ -1,6 +1,5 @@
 from reporter import Reporter
 import requests
-from json import dumps
 
 class Api_DELETE(Reporter):
     def __init__(self, url):

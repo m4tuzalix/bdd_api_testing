@@ -2,7 +2,7 @@ Feature: Test API
 
   @api_GET
   Scenario Outline: API_GET_TESTS
-    Given I'm sending the GET requests and I expect 200 status code
+    Given I'm sending the GET request and I expect 200 status code
     When I've received good status code, I should check if content is proper and does not contain error message
     Then I want to check single api element's status code with id <id>
     And I want to check single api element's content if free from errors with the same id <id>
